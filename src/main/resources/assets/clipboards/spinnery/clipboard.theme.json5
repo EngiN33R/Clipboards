@@ -1,0 +1,17 @@
+{
+  theme: {
+    "spinnery:static_text": {
+      text: 0xff000000,
+      shadow: false
+    },
+    "spinnery:text_field": {
+      top_left: 0x00000000,
+      bottom_right: 0x00000000,
+      background: 0x00000000,
+      text: 0xff000000,
+      highlight: 0xb30400ff,
+      cursor: 0xff000000,
+      label: 0xff808080
+    }
+  }
+}

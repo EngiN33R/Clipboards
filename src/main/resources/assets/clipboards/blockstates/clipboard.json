@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "vertical=side,facing=north": { "model": "clipboards:block/clipboard", "x": 90 },
+    "vertical=side,facing=south": { "model": "clipboards:block/clipboard", "x": 90 , "y": 180 },
+    "vertical=side,facing=west":  { "model": "clipboards:block/clipboard", "x": 90 , "y": 270 },
+    "vertical=side,facing=east":  { "model": "clipboards:block/clipboard", "x": 90 , "y": 90 },
+    "vertical=up,facing=north": { "model": "clipboards:block/clipboard" },
+    "vertical=up,facing=south": { "model": "clipboards:block/clipboard", "y": 180 },
+    "vertical=up,facing=west":  { "model": "clipboards:block/clipboard", "y": 270 },
+    "vertical=up,facing=east":  { "model": "clipboards:block/clipboard", "y": 90 },
+    "vertical=down,facing=north": { "model": "clipboards:block/clipboard", "x": 180 },
+    "vertical=down,facing=south": { "model": "clipboards:block/clipboard", "x": 180, "y": 180 },
+    "vertical=down,facing=west":  { "model": "clipboards:block/clipboard", "x": 180, "y": 270 },
+    "vertical=down,facing=east":  { "model": "clipboards:block/clipboard", "x": 180, "y": 90 }
+  }
+}

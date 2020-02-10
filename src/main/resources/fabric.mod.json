@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "clipboards",
+  "version": "${version}",
+
+  "name": "Clipboards",
+  "description": "Take notes and make to-do lists!",
+  "authors": [
+    "EngiN33R"
+  ],
+  "contact": {
+    "homepage": "https://engi.io/",
+    "sources": "https://github.com/Eng1N33R/Clipboards",
+    "issues": "https://github.com/Eng1N33R/Clipboards/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/clipboards/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.engi.clipboards.Clipboards"
+    ],
+    "client": [
+      "io.engi.clipboards.ClipboardsClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.7.0",
+    "fabric": "*",
+    "fabric-language-kotlin": "*"
+  }
+}
